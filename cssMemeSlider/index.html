@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,25 +12,43 @@
             <input type="radio" name="radio" id="meme2">
             <input type="radio" name="radio" id="meme3">
             <input type="radio" name="radio" id="meme4">
+
         <div class="images">
-            <img id="slide" src="/cssMemeSlider/img/1711532725568-2.jpeg" class="meme" alt="meme1">
-            <img id="slide" src="/cssMemeSlider/img/1715771563880.jpeg" class="meme" alt="meme2">
-            <img id="slide" src="/cssMemeSlider/img/2azqC8qtqgU.jpg" class="meme" alt="meme3">
-            <img id="slide" src="/cssMemeSlider/img/soSEU6ES1Ws.jpg" class="meme" alt="meme4">
+           <div class="slide">
+            <img src="/cssMemeSlider/img/1711532725568-2.jpeg" class="meme" alt="meme1">
+           </div>
+           <div class="slide">
+            <img src="/cssMemeSlider/img/1715771563880.jpeg" class="meme" alt="meme2">
+          </div>
+          <div class="slide">
+            <img src="/cssMemeSlider/img/2azqC8qtqgU.jpg" class="meme" alt="meme3">
+          </div>
+          <div class="slide">
+            <img src="/cssMemeSlider/img/soSEU6ES1Ws.jpg" class="meme" alt="meme4">
+          </div>  
         </div>
+    </div>
         <div class="meme_text">
             <div class="texts">
-                <p class="text">Скажи мне эти 2 слова..</p>
-                <p class="text">Учебный день любого джуна</p>
-                <p class="text">Учебный день любого джуна</p>
-                <p class="text">Учебный день любого джуна</p>
+                <p class="text" id="text1">Скажи мне эти 2 слова..</p>
+                <p class="text" id="text2">Учебный день любого джуна</p>
+                <p class="text" id="text3">Учебный день любого джуна</p>
+                <p class="text" id="text4">Учебный день любого джуна</p>
             </div>
-        </div>
+       
         <div class="navigation">
-            <label for="meme1"></label>
-            <label for="meme2"></label>
-            <label for="meme3"></label>
-            <label for="meme4"></label>
+            <label for="meme1">
+                <div class="control"></div>
+            </label>
+            <label for="meme2">
+                <div class="control"></div>
+            </label>
+            <label for="meme3">
+                <div class="control"></div>
+            </label>
+            <label for="meme4">
+                <div class="control"></div>
+            </label>
         </div>
     </div>
 </body>
